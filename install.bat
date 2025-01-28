@@ -13,10 +13,7 @@ echo:doskey down="%%~I\AppData\Local\Temp\down.bat" >>customcommand.bat
 echo:doskey clear=del "%%~I\AppData\Local\Temp\kmxlkamsalkjasa9019820.txt" >>customcommand.bat
 echo if not defined kmxlkamsalkjasa9019820 start cmd /k "set kmxlkamsalkjasa9019820=X&"%%~fp0"&cls" >>customcommand.bat
 )
-echo:*****Creating shortcut start.bat
 echo:
-if exist start.bat echo:Error A file named `start.bat` exists.&echo:Cannot overwrite. try again. & goto end
-echo:start cmd /k "customcommand.bat" >start.bat
 echo:*****trying to copy files
 for /f "delims=" %%I in ("%userprofile%") do copy cd.bat  "%%~I\AppData\Local\Temp\" >NUL
 if %errorlevel%==0 (echo:SUCCESS) else (Echo:!!! Error copying file:`cd.bat`&set /a error_is=1&if not exist cd.bat echo:Cd.bat is not found.)
