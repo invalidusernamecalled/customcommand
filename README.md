@@ -10,3 +10,5 @@ Valid Commands:-
 + `clear`: Clear the Stored History
 + `whris`: (Whereis) search recursively for the given pattern, Eg.`whris *.txt`
 
+The purpose of this command prompt is Simple functionality and the ability to find files quickly and navigating directories is less of a pain.
+
