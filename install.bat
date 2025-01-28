@@ -11,7 +11,6 @@ echo:doskey cd="%%~I\AppData\Local\Temp\cd.bat" $1>>customcommand.bat
 echo:doskey 00=cd \ >>customcommand.bat
 echo:doskey down="%%~I\AppData\Local\Temp\down.bat" >>customcommand.bat
 echo:doskey clear=del "%%~I\AppData\Local\Temp\kmxlkamsalkjasa9019820.txt" >>customcommand.bat
-echo:doskey whris=dir /s /b "$*" >>customcommand.bat
 echo if not defined kmxlkamsalkjasa9019820 start cmd /k "set kmxlkamsalkjasa9019820=X&"%%~fp0"&cls" >>customcommand.bat
 )
 echo:*****Creating shortcut start.bat
