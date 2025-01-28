@@ -4,7 +4,7 @@
 Valid Commands:-
 + `up`: Go up in a directory
 + `00`: Go to root
-+ `down`: Go to previous (down) directories (according to the Stored History)
++ `down`: Go to previous recorded directory (according to the Stored History)
 + `clear`: Clear the Stored History
 + `whris`: (Whereis) search recursively for the given pattern, Eg.`whris *.txt`
 
